@@ -28,6 +28,26 @@
     <%= form.text_field :price, id: :product_price, class: "form-control" %>
   </div>
 
+  <div class="field">
+    <%= form.label "Quy cách" %>
+    <%= form.text_field :quycach, id: :product_price, class: "form-control" %>
+  </div>
+
+  <div class="field">
+    <%= form.label "Số lượng" %>
+    <%= form.text_field :soluong, id: :product_price, class: "form-control" %>
+  </div>
+
+  <div class="field">
+    <%= form.label "Đóng thùng" %>
+    <%= form.text_field :dongthung, id: :product_price, class: "form-control" %>
+  </div>
+
+  <div class="field">
+    <%= form.label "Nhãn hàng" %>
+    <%= form.text_field :nhanhang, id: :product_price, class: "form-control" %>
+  </div>
+
   <div class="picture">
     <%= form.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
   </div>
